@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d07293;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+.container{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 40;
+}
+h1 {
+    margin-bottom: 20px; /* Adjust the margin-bottom value as needed */
+}
+
+p {
+    margin-top: 50px; /* Adjust the margin-top value as needed */
+}
+
+.animal-image {
+    cursor: pointer;
+    flex-wrap: wrap;
+    transition: transform 0.2s;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    justify-items: center; /* Center items horizontally */
+    grid-gap: 70px; /* Add gap between grid items */
+    margin-top: 10px ;
+    margin-bottom: 350px;
+    height:10px;
+    width:80;
+    
+
+}
+.animal-image:hover {
+    transform: scale(1.1);
+    border-color: #1f1d1d;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+footer p {
+    margin: 0;
+    color:#fff;
+}
+p {
+    color: #151111; /* Change the color of paragraphs */
+}
+
+
+
